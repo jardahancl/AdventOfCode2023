@@ -6,9 +6,10 @@ import scala.collection.mutable.ListBuffer
 def main(): Unit = {
 //  A_Trebuchet.solution()
 //  B_CubeConundrum.solution()
-  C_GearRatios.solution()
-  
+//  C_GearRatios.solution()
+  D_Scratchcards.solution()
 }
+
 
 
 
