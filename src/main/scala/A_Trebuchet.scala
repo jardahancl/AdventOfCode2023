@@ -1,5 +1,19 @@
+import scala.io.Source
+
 object A_Trebuchet {
 	val allNumbers = List("one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9")
+	
+	def solution() = {
+		val input = Source.fromFile("src/main/resource/01_prod.txt").getLines.toList
+		
+		val res1 = input.map(line => getNumber(line))
+			.sum
+		val res2 = input.map(line => getAllNumber(line))
+			.sum
+		
+		println(res1)
+		println(res2)
+	}
 	
 	def getNumber(line: String): Int = {
 		val lastNum = line.toList.foldLeft(0)((x, y) => if (y.isDigit) y.asDigit else x)

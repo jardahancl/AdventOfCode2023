@@ -1,4 +1,20 @@
+import scala.io.Source
+
 object B_CubeConundrum {
+	
+	def solution() = {
+		val input = Source.fromFile("src/main/resource/02_prod.txt").getLines.toList
+		
+		val res1 = input.filter(line => isPossible(line))
+			.map(line => getGameNumber(line))
+			.sum
+		val res2 = input.map(line => getMultipliedCubes(line))
+			.sum
+		
+		println(res1)
+		println(res2)
+	}
+	
 	def isColorValid(s: String): Boolean = {
 		val firstNum = s.split(" ")(0).toInt
 		val colorName = s.split(" ")(1)
