@@ -7,8 +7,12 @@ def main(): Unit = {
 //  A_Trebuchet.solution()
 //  B_CubeConundrum.solution()
 //  C_GearRatios.solution()
-  D_Scratchcards.solution()
+//  D_Scratchcards.solution()
+
+  F_WaitForIt.solution()
 }
+
+
 
 
 
