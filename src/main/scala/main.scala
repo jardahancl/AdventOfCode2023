@@ -1,3 +1,4 @@
+import scala.collection.mutable
 import scala.io.Source
 import scala.collection.mutable.ListBuffer
 
@@ -8,9 +9,23 @@ def main(): Unit = {
 //  B_CubeConundrum.solution()
 //  C_GearRatios.solution()
 //  D_Scratchcards.solution()
-
-  F_WaitForIt.solution()
+//  E_IfYouGiveASeedAFertilizer.solutionE()
+//  F_WaitForIt.solution()
+//  G_CamelCards.solution()
+  H_HauntedWasteland.solution()
+  
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
