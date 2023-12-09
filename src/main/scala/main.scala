@@ -12,9 +12,11 @@ def main(): Unit = {
 //  E_IfYouGiveASeedAFertilizer.solutionE()
 //  F_WaitForIt.solution()
 //  G_CamelCards.solution()
-  H_HauntedWasteland.solution()
-  
+//  H_HauntedWasteland.solution()
+  I_MirageMaintenance.solution()
 }
+
+
 
 
 
