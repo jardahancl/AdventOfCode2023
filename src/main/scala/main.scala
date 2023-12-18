@@ -17,7 +17,10 @@ def main(): Unit = {
 //  G_CamelCards.solution()
 //  H_HauntedWasteland.solution()
 //  I_MirageMaintenance.solution()
-  J_PipeMaze.solution()
+//  J_PipeMaze.solution()
+
+//  P_TheFloorWillBeLava.solution()
+  solution()
 }
 
 
