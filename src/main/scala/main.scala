@@ -1,8 +1,8 @@
+import scala.collection.immutable.List
 import scala.collection.mutable
 import scala.io.Source
-import scala.collection.mutable.ListBuffer
-import scala.collection.mutable.Queue
-import scala.collection.mutable.Map
+import scala.collection.mutable.{ListBuffer, Queue}
+import scala.collection.immutable.Map
 
 
 
@@ -12,7 +12,6 @@ def main(): Unit = {
 //  B_CubeConundrum.solution()
 //  C_GearRatios.solution()
 //  D_Scratchcards.solution()
-//  E_IfYouGiveASeedAFertilizer.solutionE()
 //  F_WaitForIt.solution()
 //  G_CamelCards.solution()
 //  H_HauntedWasteland.solution()
@@ -20,7 +19,16 @@ def main(): Unit = {
 //  J_PipeMaze.solution()
 
 //  P_TheFloorWillBeLava.solution()
-  solution()
+
+  V_StepCounter.solution()
+  
+//  TODO part 2
+//  R_LavaductLagoon.solution()
+//  TODO part 1
+//  E_IfYouGiveASeedAFertilizer.solutionE()
+
+
+
 }
 
 
