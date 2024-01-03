@@ -20,10 +20,10 @@ def main(): Unit = {
 
 //  P_TheFloorWillBeLava.solution()
 
-  V_StepCounter.solution()
+//  V_StepCounter.solution()
   
 //  TODO part 2
-//  R_LavaductLagoon.solution()
+  R_LavaductLagoon.solution()
 //  TODO part 1
 //  E_IfYouGiveASeedAFertilizer.solutionE()
 
