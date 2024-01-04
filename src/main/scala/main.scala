@@ -12,6 +12,7 @@ def main(): Unit = {
 //  B_CubeConundrum.solution()
 //  C_GearRatios.solution()
 //  D_Scratchcards.solution()
+
 //  F_WaitForIt.solution()
 //  G_CamelCards.solution()
 //  H_HauntedWasteland.solution()
@@ -20,16 +21,19 @@ def main(): Unit = {
 
 //  P_TheFloorWillBeLava.solution()
 
+//  R_LavaductLagoon.solution()
+
 //  V_StepCounter.solution()
   
-//  TODO part 2
-  R_LavaductLagoon.solution()
+  K_CosmicExpansion.solution()
+  
+  
 //  TODO part 1
 //  E_IfYouGiveASeedAFertilizer.solutionE()
 
-
-
 }
+
+
 
 
 
