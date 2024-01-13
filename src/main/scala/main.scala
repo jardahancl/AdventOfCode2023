@@ -18,6 +18,7 @@ def main(): Unit = {
 //  H_HauntedWasteland.solution()
 //  I_MirageMaintenance.solution()
 //  J_PipeMaze.solution()
+//  K_CosmicExpansion.solution()
 
 //  P_TheFloorWillBeLava.solution()
 
@@ -25,13 +26,15 @@ def main(): Unit = {
 
 //  V_StepCounter.solution()
   
-  K_CosmicExpansion.solution()
   
+  L_HotSprings.solution()
   
 //  TODO part 1
 //  E_IfYouGiveASeedAFertilizer.solutionE()
 
 }
+
+
 
 
 
