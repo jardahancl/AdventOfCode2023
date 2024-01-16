@@ -19,16 +19,15 @@ def main(): Unit = {
 //  I_MirageMaintenance.solution()
 //  J_PipeMaze.solution()
 //  K_CosmicExpansion.solution()
+//  L_HotSprings.solution()
 
 //  P_TheFloorWillBeLava.solution()
-
+  Q_ClumsyCrucible.solution()
 //  R_LavaductLagoon.solution()
 
 //  V_StepCounter.solution()
   
-  
-  L_HotSprings.solution()
-  
+
 //  TODO part 1
 //  E_IfYouGiveASeedAFertilizer.solutionE()
 

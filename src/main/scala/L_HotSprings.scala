@@ -18,14 +18,14 @@ object L_HotSprings {
 			List.fill(5)(lake.record).flatten
 		))
 		println(extLakes)
-		val res2 = extLakes.zipWithIndex.map((lake, ind) => countSolutionsFast(lake)).sum
+		val res2 = extLakes.zipWithIndex.map((lake, ind) => countSolutionsStart(lake)).sum
 		println(s"Solution 12b: $res2")
 
 		val endTime = System.currentTimeMillis()
 		println(s"Duration ${(endTime - startTime) / 1000} seconds")
 	}
 	
-	def countSolutionsFast(lake: Lake): Long = {
+	def countSolutionsStart(lake: Lake): Long = {
 		def recordSplitted = lake.record.splitAt(lake.record.length / 2)
 		
 		def minPosition = recordSplitted._1.sum + recordSplitted._1.length - 1
